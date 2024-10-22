@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now</title>
+  <link rel="stylesheet" href="booknow.css">
+  <link rel="icon" href="https://www.freeiconspng.com/uploads/plane-travel-flight-tourism-travel-icon-png-10.png">
+</head>
+<body>
+
+  <div class="booking-form-container">
+    <h1>Book Your Trip</h1>
+    <form action="#" method="post" class="booking-form">
+
+      <label for="destination">Destination:</label>
+      <input type="text" id="destination" name="destination" placeholder="Enter your destination" required>
+ 
+      <label for="departure">Departure Date:</label>
+      <input type="date" id="departure" name="departure" required>
+
+      <label for="return">Return Date:</label>
+      <input type="date" id="return" name="return">
+
+      <label for="travelers">Number of Travelers:</label>
+      <input type="number" id="travelers" name="travelers" min="1" max="10" value="1" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <table>
+        <tr>
+            <td><button type="submit">BOOK NOW</button></td>
+        </tr>
+        <tr>
+            <td><button><a href="travel.html">HOME</a></button></td>
+        </tr>
+      </table>
+
+  </div>
+
+</body>
+</html>
